@@ -6,6 +6,8 @@ Proximal Policy Optimization (PPO) in PyTorch for continuous control in MuJoCo (
 Implementation of **Proximal Policy Optimization (PPO)** in PyTorch for continuous control using DeepMind Control Suite (MuJoCo).  
 The agent is trained on the **Walker: walk** task using clipped surrogate loss and Generalized Advantage Estimation (GAE).
 
+MuJoCo must be installed separately. See https://github.com/deepmind/mujoco
+ for installation instructions.
 ---
 
 ## Overview
