@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Large output files
+*.npz
+*.pt
+*.pth
+
+# DM Control / Mujoco temp files
+mujoco210/
+mjkey.txt

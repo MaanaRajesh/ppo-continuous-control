@@ -1,0 +1,5 @@
+torch>=2.0.0
+numpy>=1.23
+scipy>=1.10
+matplotlib>=3.7
+dm-control>=1.0.0
