@@ -21,6 +21,8 @@ This project implements an actor–critic PPO framework from scratch, including:
 
 The agent is trained for over **1M+ environment interactions**, and learning stability, return trends, and variance are analyzed.
 
+>MuJoCo must be installed separately. See https://github.com/deepmind/mujoco
+ >for installation instructions.
 ---
 
 ## Environment
@@ -88,4 +90,5 @@ Advantages are computed using **GAE-λ**.
 Training performance is logged in `ppo_returns.npz` and visualized with `plot_ppo_returns.py`.
 
 The Walker learns stable locomotion behavior over training, with increasing average returns and reduced variance across episodes.
+
 
